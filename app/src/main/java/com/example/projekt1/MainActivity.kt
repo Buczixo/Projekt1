@@ -20,7 +20,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.*
 import com.example.projekt1.ui.theme.Projekt1Theme
-// Wersja z guzikiem i text-field na 3.0
+// Wersja z trzema ekranami i przerzucaniem danych
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -79,7 +79,7 @@ fun GreetingWithInput(onNavigateToScreen2: (String) -> Unit) {
         TextField(
             value = inputText,
             onValueChange = { inputText = it },
-            label = { Text("Label") }
+            label = { Text("Wpisz dane") }
         )
 
         Button(
