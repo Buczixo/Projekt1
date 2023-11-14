@@ -10,7 +10,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.projekt1.ui.theme.Projekt1Theme
-// Wersja z gusikiem i text-field na 3.0
+// Wersja z guzikiem i text-field na 3.0
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
