@@ -55,7 +55,7 @@ fun Nav(){
             val param = it.arguments?.getString("param") ?:""
             EkranDrugi(param = param, navCont )
         }
-        composable("c_screen"){
+        composable("third_screen"){
             EkranTrzeci(navCont)
         } }
 }
@@ -143,7 +143,7 @@ fun  EkranDrugi(param: String, navController: NavController){
         Text(
             text = param,
         )
-        Button(onClick = { navController.navigate("c_screen") }) {
+        Button(onClick = { navController.navigate("third_screen") }) {
             Text(text = "Idz do ekranu nr. 3")
         }
     }
